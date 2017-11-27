@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ../data && \
+../../../bin/gconvert tileset.xml && \
+../../../bin/midiconv -f 8 -1 -2 -3 midisong.mid midisong.h && \
+cd ../default && \
+make clean && \
+make
