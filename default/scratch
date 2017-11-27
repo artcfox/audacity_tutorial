@@ -2,6 +2,8 @@
 cd ../data && \
 ../../../bin/gconvert tileset.xml && \
 ../../../bin/midiconv -f 8 -1 -2 -3 midisong.mid midisong.h && \
+../../../bin/bin2hex PCM_testing.raw PCM_testing.inc && \
+../../../bin/bin2hex PCM_skrattar_du.raw PCM_skrattar_du.inc && \    
 cd ../default && \
 make clean && \
 make

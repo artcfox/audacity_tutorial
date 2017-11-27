@@ -54,7 +54,7 @@ const struct PatchStruct patches[] PROGMEM = {
 {1, 0, noise_bass_drum, 0, 0},
 {1, 0, noise_crash_cymbal, 0, 0},
 
-{2, PCM_testing, 0, sizeof(PCM_testing) - 2, sizeof(PCM_testing) - 1},
-{2, PCM_skrattar_du, 0, sizeof(PCM_skrattar_du) - 2, sizeof(PCM_skrattar_du) - 1},
+{2, PCM_testing_raw, 0, sizeof(PCM_testing_raw) - 2, sizeof(PCM_testing_raw) - 1},
+{2, PCM_skrattar_du_raw, 0, sizeof(PCM_skrattar_du_raw) - 2, sizeof(PCM_skrattar_du_raw) - 1},
 };
 
